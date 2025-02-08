@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "project 2-job search"
+version = "0.1.0"
+description = ""
+authors = ["Антонюк Евгений <38914583+AntonyukEvgeniy@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "project 2"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

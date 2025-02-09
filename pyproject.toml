@@ -8,6 +8,7 @@ packages = [{include = "project 2"}]
 
 [tool.poetry.dependencies]
 python = "^3.13"
+requests = "^2.32.3"
 
 
 [tool.poetry.group.dev.dependencies]
